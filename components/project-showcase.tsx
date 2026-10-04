@@ -156,28 +156,9 @@ const projects = [
     tags: ["Graphics"],
   },
 
-   {
-    id: 15,
-    title: "Real Estate Flyer Design",
-    category: "Graphics",
-    image: "/realestate_flyer.jpg",
-    color: "from-teal-500/20 to-green-500/20",
-    client: "bussiness",
-    year: "2026",
-    tags: ["Graphics"],
-  },
+  
 
 
-   {
-    id: 16,
-    title: "  Church Flyer Design",
-    category: "Graphics",
-    image: "/unleash.png",
-    color: "from-teal-500/20 to-green-500/20",
-    client: "bussiness",
-    year: "2026",
-    tags: ["Graphics"],
-  },
 
 
     
