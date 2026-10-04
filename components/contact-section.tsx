@@ -86,7 +86,7 @@ export function ContactSection() {
               <p className="font-medium mb-2 text-white">Follow me</p>
               <div className="flex items-center gap-4">
                 <a
-                  href="#"
+  href="https://www.linkedin.com/in/favour-ajuzie-5468b832b/"
                   className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
                 >
                   <svg className="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -94,7 +94,7 @@ export function ContactSection() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                 href="https://www.behance.net/favourajuzie"
                   className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
                 >
                   <svg className="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -106,7 +106,7 @@ export function ContactSection() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                href="https://wa.me/2348100647270"
                   className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
                 >
                   <svg className="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -118,7 +118,7 @@ export function ContactSection() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                 href="mailto:favourajuzie2020@gmail.com"
                   className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
                 >
                   <svg className="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
