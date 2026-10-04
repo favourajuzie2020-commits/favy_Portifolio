@@ -180,65 +180,16 @@ const projects = [
   },
 
 
-    {
-    id: 17,
-    title: "  Beauty Design",
-    category: "Graphics",
-    image: "/liquerose.png",
-    color: "from-teal-500/20 to-green-500/20",
-    client: "bussiness",
-    year: "2026",
-    tags: ["Graphics"],
-  },
+    
 
 
 
-    {
-    id: 18,
-    title: "  Food Design",
-    category: "Graphics",
-    image: "/food-design.jpg",
-    color: "from-teal-500/20 to-green-500/20",
-    client: "bussiness",
-    year: "2026",
-    tags: ["Graphics"],
-  },
 
 
-   {
-    id: 19,
-    title: "  Makeup Flyer Design",
-    category: "Graphics",
-    image: "/makeup-flyer.jpg",
-    color: "from-teal-500/20 to-green-500/20",
-    client: "bussiness",
-    year: "2026",
-    tags: ["Graphics"],
-  },
+ 
 
 
 
-   {
-    id: 20,
-    title: " Gadget Store Flyer Design",
-    category: "Graphics",
-    image: "/gadget-store.png",
-    color: "from-teal-500/20 to-green-500/20",
-    client: "bussiness",
-    year: "2026",
-    tags: ["Graphics"],
-  },
-
-     {
-    id: 21,
-    title: "  Hair Flyer Design",
-    category: "Graphics",
-    image: "/shampoo-flyer.jpg",
-    color: "from-teal-500/20 to-green-500/20",
-    client: "bussiness",
-    year: "2026",
-    tags: ["Graphics"],
-  },
   
 ]
 
