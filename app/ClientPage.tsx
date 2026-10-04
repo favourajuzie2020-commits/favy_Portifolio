@@ -74,7 +74,7 @@ export default function ClientPage() {
                   About Me
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-white text-shadow-sm">
-                  Crafting Digital <span className="text-primary">Experiences</span> That Inspire
+                  Designing Digital Products <span className="text-primary">With Purpose</span>
                 </h2>
                 <p className="text-lg text-white leading-relaxed">
                   I’m Favour Ajuzie, a UI/UX and Product Designer with 3+ years of experience creating intuitive digital products and refined visual experiences. I turn complex ideas into clear, purposeful interfaces that balance user needs, business goals, and thoughtful visual design.
