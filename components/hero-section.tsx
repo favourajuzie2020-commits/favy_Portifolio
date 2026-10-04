@@ -114,14 +114,14 @@ export function HeroSection() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
               </span>
-              Available for creative collaborations
+              Available for work
             </div>
           </motion.div>
 
           <div className="max-w-4xl mx-auto mb-8">
             <TextReveal>
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-white text-glow">
-                Elevating brands through <span className="text-primary">creative</span> design
+               Designing digital products and <span className="text-primary">visual experiences</span> that stand out
               </h1>
             </TextReveal>
 
@@ -131,8 +131,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              I craft immersive digital experiences that blend aesthetics with functionality to create memorable brand
-              moments.
+           I design intuitive digital products and compelling visual experiences with clarity, purpose, and style.
             </motion.p>
           </div>
 
@@ -167,16 +166,16 @@ export function HeroSection() {
               <div className="text-sm text-white">Years Experience</div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold mb-1 text-white">99+</div>
-              <div className="text-sm text-white">Projects Completed</div>
+              <div className="text-4xl font-bold mb-1 text-white">UI/UX</div>
+              <div className="text-sm text-white">Product Design</div>
             </div>
             <div className="flex flex-col items-center">
               <div className="text-4xl font-bold mb-1 text-white">20+</div>
               <div className="text-sm text-white">Happy Clients</div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold mb-1 text-white">15+</div>
-              <div className="text-sm text-white">Design Awards</div>
+              <div className="text-4xl font-bold mb-1 text-white">Visual</div>
+              <div className="text-sm text-white">Design</div>
             </div>
           </motion.div>
         </div>
@@ -199,7 +198,7 @@ export function HeroSection() {
 
       <div className="absolute bottom-0 left-0 right-0 overflow-hidden">
         <ParallaxText baseVelocity={-2}>
-          UI/UX DESIGN • BRANDING • MOTION GRAPHICS • 3D VISUALIZATION • WEB DESIGN • CREATIVE DIRECTION •
+         UI/UX DESIGN • PRODUCT DESIGN • WEB DESIGN • GRAPHIC DESIGN • BRANDING • VISUAL DESIGN •
         </ParallaxText>
       </div>
     </section>
