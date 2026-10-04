@@ -61,8 +61,8 @@ export default function ClientPage() {
                   </div>
                   <div className="w-px h-12 bg-white/10" />
                   <div className="flex flex-col">
-                    <span className="text-4xl font-bold text-white">100+</span>
-                    <span className="text-sm text-white">Projects</span>
+                    <span className="text-4xl font-bold text-white">UI/UX</span>
+                    <span className="text-sm text-white">Product Design</span>
                   </div>
                 </div>
               </div>
@@ -77,9 +77,8 @@ export default function ClientPage() {
                   Crafting Digital <span className="text-primary">Experiences</span> That Inspire
                 </h2>
                 <p className="text-lg text-white leading-relaxed">
-                  I'm a multidisciplinary designer with a passion for creating immersive digital experiences that blend
-                  aesthetics with functionality. My approach combines strategic thinking with creative execution to
-                  deliver designs that not only captivate but also drive results.
+                  I’m Favour Ajuzie, a UI/UX and Product Designer with 3+ years of experience creating intuitive digital products and refined visual experiences. I turn complex ideas into clear, purposeful interfaces that balance user needs, business goals, and thoughtful visual design.
+
                 </p>
               </div>
 
@@ -93,11 +92,11 @@ export default function ClientPage() {
                     </li>
                     <li className="flex items-center gap-3">
                       <div className="h-2 w-2 rounded-full bg-primary"></div>
-                      <span className="text-white"> Wordpress Develper</span>
+                      <span className="text-white"> Product Design</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <div className="h-2 w-2 rounded-full bg-primary"></div>
-                      <span className="text-white">Motion Graphics</span>
+                      <span className="text-white">Visual Design</span>
                     </li>
                   </ul>
                 </div>
