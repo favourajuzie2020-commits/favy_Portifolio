@@ -8,30 +8,30 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const testimonials = [
+ {
+  id: 1,
+  name: "Marvelous Ajuzie",
+  role: "Software Developer",
+  content:
+    "Favour is a thoughtful designer who understands both the user's needs and the practical side of product development. She communicates her ideas clearly and pays attention to the details that make a product easier to use.",
+  avatar: "/avatar-1.png",
+},
+ {
+  id: 2,
+  name: "David Okafor",
+  role: "Product Manager",
+  content:
+    "Favour has a strong eye for clean and intuitive design. She took the time to understand the product requirements and translated them into a user experience that was both visually polished and easy to use.",
+  avatar: "/avatar-2.png",
+},
   {
-    id: 1,
-    name: "Alex Johnson",
-    role: "CEO, TechStart",
-    content:
-      "Working with this designer was an absolute pleasure. They took our vague ideas and transformed them into a stunning brand identity that perfectly captures our company's vision.",
-    avatar: "/avatar-1.png",
-  },
-  {
-    id: 2,
-    name: "Sarah Williams",
-    role: "Marketing Director, FashionBrand",
-    content:
-      "The attention to detail and creativity brought to our project exceeded all expectations. Our website redesign has resulted in a 40% increase in user engagement.",
-    avatar: "/avatar-2.png",
-  },
-  {
-    id: 3,
-    name: "Michael Chen",
-    role: "Founder, AppLaunch",
-    content:
-      "An exceptional talent who delivers not just beautiful designs but strategic solutions. The UI/UX work for our app has received overwhelmingly positive feedback from users.",
-    avatar: "/avatar-3.png",
-  },
+  id: 3,
+  name: "Chinedu Williams",
+  role: "Software Engineer",
+  content:
+    "Favour is a detail-oriented designer who is easy to collaborate with. Her designs are well thought out, and she communicates clearly throughout the design process. I would definitely recommend her for UI/UX projects.",
+  avatar: "/avatar-3.png",
+},
 ]
 
 export function TestimonialSection() {
