@@ -17,7 +17,7 @@ const projects = [
     category: "UI/UX",
     image: "/Fintech app.jpg",
     color: "from-purple-500/20 to-pink-500/20",
-     Url: "https://www.behance.net/gallery/239675023/Fintech-App",
+     Url: "https://www.behance.net/gallery/247910443/fintech-mobile-app-design",
   },
   {
    id: 2,
@@ -66,12 +66,12 @@ const projects = [
   },
   {
     id: 7,
-    title: "CRYPTO APP",
+    title: "AI Therapy App",
     description: "Complete Ui/Ux Design and digital experience for a crypto platform",
     category: "UI/UX",
     image: "/cryto_img.jpg",
     color: "from-blue-500/20 to-cyan-500/20",
-   Url: "https://www.behance.net/gallery/229137531/Crypto-Wallet-App",
+   Url: "https://www.behance.net/gallery/253690837/Ai-Therapy-App",
   },
 
   {
