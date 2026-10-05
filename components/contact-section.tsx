@@ -85,49 +85,67 @@ export function ContactSection() {
               <div className="h-px w-full bg-gradient-to-r from-primary/50 via-primary/10 to-transparent mb-8" />
               <p className="font-medium mb-2 text-white">Follow me</p>
               <div className="flex items-center gap-4">
-                <a
+               <a
   href="https://www.linkedin.com/in/favour-ajuzie-5468b832b/"
-                  className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
-                >
-                  <svg className="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
-                  </svg>
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="LinkedIn"
+  className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
+>
+  <svg
+    className="h-5 w-5 text-white"
+    fill="currentColor"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.66H9.35V8.99h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.48v6.27zM5.34 7.43a2.07 2.07 0 11-.01-4.14 2.07 2.07 0 01.01 4.14zM3.56 20.45h3.56V8.99H3.56v11.46z" />
+  </svg>
+</a>
+                 <a
+  href="https://www.behance.net/favourajuzie"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Behance"
+  className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
+>
+                  <svg
+  className="h-5 w-5 text-white"
+  fill="currentColor"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="M2.5 5.5h7.2c2.1 0 3.5 1.1 3.5 2.9 0 1.2-.6 2.1-1.6 2.5 1.5.4 2.4 1.4 2.4 2.9 0 2.1-1.7 3.6-4.4 3.6H2.5V5.5zm3 2.3v2.3h3.6c.7 0 1.1-.4 1.1-1.1 0-.7-.4-1.2-1.1-1.2H5.5zm0 4.6v2.6h3.8c.8 0 1.3-.5 1.3-1.3s-.5-1.3-1.3-1.3H5.5zM15.2 7.1h5.1V8.8h-5.1V7.1zm2.5 2.7c2.6 0 4.2 1.7 4.2 4.5v.5h-6.3c.2 1.1.9 1.7 2 1.7.8 0 1.4-.3 1.8-.9h2.3c-.7 1.6-2.1 2.5-4.1 2.5-2.8 0-4.6-1.6-4.6-4.1 0-2.5 1.8-4.2 4.7-4.2zm1.9 3.3c-.2-.9-.8-1.5-1.9-1.5-1 0-1.8.5-2 1.5h3.9z" />
+</svg>
                 </a>
                 <a
-                 href="https://www.behance.net/favourajuzie"
-                  className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
-                >
-                  <svg className="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path
-                      fillRule="evenodd"
-                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
+  href="https://wa.me/2348100647270"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="WhatsApp"
+  className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
+>
+                  <svg
+  className="h-5 w-5 text-white"
+  fill="currentColor"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="M12.04 2C6.52 2 2.04 6.48 2.04 12c0 1.76.46 3.41 1.26 4.87L2 22l5.29-1.27A9.96 9.96 0 0012.04 22C17.56 22 22 17.52 22 12S17.56 2 12.04 2zm0 18.2c-1.55 0-3.06-.42-4.39-1.22l-.31-.18-3.14.75.76-3.06-.2-.32A8.2 8.2 0 013.84 12c0-4.53 3.68-8.2 8.2-8.2s8.16 3.67 8.16 8.2-3.63 8.2-8.16 8.2zm4.5-6.15c-.25-.13-1.48-.73-1.71-.81-.23-.08-.4-.13-.57.13-.17.25-.65.81-.8.98-.15.17-.3.19-.55.06-.25-.13-1.05-.39-2-1.24-.74-.66-1.24-1.48-1.39-1.73-.15-.25-.02-.39.11-.52.12-.12.25-.3.38-.45.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.45-.06-.13-.57-1.37-.78-1.88-.2-.49-.4-.42-.55-.43h-.47c-.17 0-.45.06-.68.32-.23.25-.89.87-.89 2.12s.91 2.46 1.04 2.63c.13.17 1.79 2.73 4.33 3.83.61.26 1.08.42 1.45.54.61.19 1.17.16 1.61.1.49-.07 1.48-.61 1.69-1.2.21-.59.21-1.09.15-1.2-.06-.11-.23-.17-.48-.3z" />
+</svg>
                 </a>
-                <a
-                href="https://wa.me/2348100647270"
-                  className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
-                >
-                  <svg className="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path
-                      fillRule="evenodd"
-                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </a>
-                <a
-                 href="mailto:favourajuzie2020@gmail.com"
-                  className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
-                >
-                  <svg className="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path
-                      fillRule="evenodd"
-                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm-1 15h-2v-6h2v6zm-1-7a1 1 0 100-2 1 1 0 000 2zm7 7h-2v-4c0-.6-.4-1-1-1s-1 .4-1 1v4h-2v-6h2v1.1c.4-.6 1.2-1.1 2-1.1 1.7 0 3 1.3 3 3v3z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
+               <a
+  href="mailto:favourajuzie2020@gmail.com"
+  aria-label="Email"
+  className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors"
+>
+                 <svg
+  className="h-5 w-5 text-white"
+  fill="currentColor"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="M2.5 5.5A2.5 2.5 0 015 3h14a2.5 2.5 0 012.5 2.5v13A2.5 2.5 0 0119 21H5a2.5 2.5 0 01-2.5-2.5v-13zm2.5.2v.37l7 5.1 7-5.1V5.7a.2.2 0 00-.2-.2H5.2a.2.2 0 00-.2.2zm14 2.84l-7 5.1-7-5.1v9.96c0 .11.09.2.2.2h13.6a.2.2 0 00.2-.2V8.54z" />
+</svg>
                 </a>
               </div>
             </div>
