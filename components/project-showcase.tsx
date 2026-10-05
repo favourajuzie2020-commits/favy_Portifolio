@@ -66,7 +66,7 @@ const projects = [
   },
   {
     id: 7,
-    title: "AI Therapy App",
+    title: "AI Therapy App/Live on App Store",
     description: "Complete Ui/Ux Design and digital experience for a crypto platform",
     category: "UI/UX",
     image: "/cryto_img.jpg",
