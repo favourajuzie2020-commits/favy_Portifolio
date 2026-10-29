@@ -67,7 +67,7 @@ const projects: Project[] = [
   title: "BRANDA Fashion Landing Page",
   description: "Designed and built a modern fashion landing page focused on visual storytelling, clean layouts, and a seamless browsing experience.",
   category: "UI/UX",
-  image: "/sasslanding_img.jpg",
+  image: "/Frame%202095586091.jpg",
   color: "from-purple-500/20 to-pink-500/20",
   Url: "https://www.behance.net/gallery/251834569/FASHION-LANDING-PAGE-DESIGN",
   LiveUrl: "https://fashionwesite.lovable.app/",
