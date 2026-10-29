@@ -53,15 +53,6 @@ const projects: Project[] = [
   Url: "https://www.behance.net/gallery/253690837/Ai-Therapy-App",
   LiveUrl: "https://apps.apple.com/ng/app/evra-ai-mental-wellness/id6755344599",
 },
-{
-  id: 3,
-  title: "Alyra AI Assistant",
-  description: "Designed an AI assistant app with a clear interface to make interacting with AI feel simple and intuitive.",
-  category: "UI/UX",
-  image: "/alyra_img.jpg",
-  color: "from-purple-500/20 to-pink-500/20",
-  Url: "https://www.behance.net/gallery/243483083/AI-ASSISTANT-MOBILE-APP-DESIGN",
-},
   {
   id: 5,
   title: "BRANDA Fashion Landing Page",
@@ -73,6 +64,16 @@ const projects: Project[] = [
   LiveUrl: "https://fashionwesite.lovable.app/",
 },
 
+{
+  id: 3,
+  title: "Alyra AI Assistant",
+  description: "Designed an AI assistant app with a clear interface to make interacting with AI feel simple and intuitive.",
+  category: "UI/UX",
+  image: "/alyra_img.jpg",
+  color: "from-purple-500/20 to-pink-500/20",
+  Url: "https://www.behance.net/gallery/243483083/AI-ASSISTANT-MOBILE-APP-DESIGN",
+},
+ 
 {
   id: 4,
   title: "Internal Logistics App",
