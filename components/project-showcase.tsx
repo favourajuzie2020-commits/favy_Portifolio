@@ -43,16 +43,7 @@ const projects: Project[] = [
   color: "from-purple-500/20 to-pink-500/20",
   Url: "https://www.behance.net/gallery/240902507/Salad-Bar-Restaurant-website",
 },
-  {
-  id: 3,
-  title: "AI Therapy App",
-  description: "Designed a mental wellness app experience focused on making emotional support and wellbeing tools feel approachable.",
-  category: "UI/UX",
-  image: "/AI therapy App.png",
-  color: "from-blue-500/20 to-cyan-500/20",
-  Url: "https://www.behance.net/gallery/253690837/Ai-Therapy-App",
-  LiveUrl: "https://apps.apple.com/ng/app/evra-ai-mental-wellness/id6755344599",
-},
+ 
 {
   id: 3,
   title: "Alyra AI Assistant",
@@ -92,14 +83,15 @@ const projects: Project[] = [
     color: "from-indigo-500/20 to-blue-500/20",
     Url: "https://www.behance.net/gallery/211438871/Security-App-ui-design",
   },
- {
+  {
   id: 7,
-  title: "Alyra AI Assistant",
-  description: "Designed an AI assistant app with a clear interface to make interacting with AI feel simple and intuitive.",
+  title: "AI Therapy App",
+  description: "Designed a mental wellness app experience focused on making emotional support and wellbeing tools feel approachable.",
   category: "UI/UX",
-  image: "/alyra_img.jpg",
-  color: "from-purple-500/20 to-pink-500/20",
-  Url: "https://www.behance.net/gallery/243483083/AI-ASSISTANT-MOBILE-APP-DESIGN",
+  image: "/AI therapy App.png",
+  color: "from-blue-500/20 to-cyan-500/20",
+  Url: "https://www.behance.net/gallery/253690837/Ai-Therapy-App",
+  LiveUrl: "https://apps.apple.com/ng/app/evra-ai-mental-wellness/id6755344599",
 },
   {
     id: 8,
