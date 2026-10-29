@@ -277,48 +277,54 @@ export function ProjectShowcase() {
                           exit={{ opacity: 0 }}
                           className="absolute inset-0 flex items-center justify-center"
                         >
-                          <a
-                            href={project.Url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center justify-center h-16 w-16 rounded-full bg-primary text-white"
-                          >
-                            <ExternalLink className="h-6 w-6" />
-                          </a>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
-                  </div>
-
-                
-<div className="flex items-center justify-between mb-4">
-  <span className="inline-flex items-center rounded-full border border-white/20 bg-[#151515]/80 px-2.5 py-0.5 text-xs font-semibold backdrop-blur-sm text-white">
-    {project.category}
-  </span>
+                         {project.Url && (
   <a
     href={project.Url}
     target="_blank"
     rel="noopener noreferrer"
-    aria-label={`View ${project.title} on Behance`}
-    className="flex h-8 w-8 items-center justify-center rounded-full bg-[#151515]/80 text-white backdrop-blur-sm"
+    className="flex items-center justify-center h-16 w-16 rounded-full bg-primary text-white"
   >
-    <ArrowUpRight className="h-4 w-4" />
+    <ExternalLink className="h-6 w-6" />
   </a>
+)}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                                </div>
+
+                  <div className="p-6 md:p-8">
+                    <div className="flex items-center justify-between mb-4">
+  <span className="inline-flex items-center rounded-full border border-white/20 bg-[#151515]/80 px-2.5 py-0.5 text-xs font-semibold backdrop-blur-sm text-white">
+    {project.category}
+  </span>
+     {project.Url && (
+    <a
+      href={project.Url}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`View ${project.title} on Behance`}
+      className="flex h-8 w-8 items-center justify-center rounded-full bg-[#151515]/80 text-white backdrop-blur-sm"
+    >
+      <ArrowUpRight className="h-4 w-4" />
+    </a>
+  )}
 </div>
 
 <h3 className="text-2xl font-bold mb-2 text-white">{project.title}</h3>
 <p className="text-white">{project.description}</p>
 
 <div className="flex flex-wrap gap-3 mt-4">
-  <a
-    href={project.Url}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 rounded-full border border-white/20 px-4 py-2 text-sm text-white hover:bg-white/10"
-  >
-    Behance Case Study
-    <ArrowUpRight className="h-4 w-4" />
-  </a>
+    {project.Url && (
+    <a
+      href={project.Url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 rounded-full border border-white/20 px-4 py-2 text-sm text-white hover:bg-white/10"
+    >
+      Behance Case Study
+      <ArrowUpRight className="h-4 w-4" />
+    </a>
+  )}
 
   {project.LiveUrl && (
     <a
