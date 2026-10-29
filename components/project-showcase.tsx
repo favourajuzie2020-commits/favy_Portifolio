@@ -258,8 +258,7 @@ export function ProjectShowcase() {
                 />
 
                 <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-[#151515] backdrop-blur-sm enhanced-card">
-                  <div className="aspect-[4/3] overflow-hidden">
-                    <Image
+<div className="relative aspect-[4/3] overflow-hidden">                    <Image
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}
                       width={800}
