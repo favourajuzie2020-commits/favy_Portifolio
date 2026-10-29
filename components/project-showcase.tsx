@@ -9,8 +9,22 @@ import { ArrowRight, ArrowUpRight, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
-const projects = [
-   
+
+type Project = {
+  id: number
+  title: string
+  description?: string
+  category: string
+  image: string
+  color: string
+  Url?: string
+  LiveUrl?: string
+  client?: string
+  year?: string
+  tags?: string[]
+}
+
+const projects: Project[] = [   
 {
   id: 1,
   title: "Fintech Mobile App",
@@ -48,15 +62,17 @@ const projects = [
   Url: "https://www.behance.net/gallery/240903405/Internal-Trip-Delivery-Coordination-App",
 },
 
-  {
-    id: 5,
-    title: "SaaS Landing Page",
-    description: "Designed a SaaS landing page to communicate the product's value clearly and guide visitors toward taking action.",
-    category: "UI/UX",
-    image: "/sasslanding_img.jpg",
-    color: "from-purple-500/20 to-pink-500/20",
-    Url: "https://www.behance.net/gallery/237879117/SAAS-LANDING-PAGE-HERO-SECTION",
-  },
+{
+  id: 5,
+  title: "BRANDA Fashion Landing Page",
+  description: "Designed and built a modern fashion landing page focused on visual storytelling, clean layouts, and a seamless browsing experience.",
+  category: "UI/UX",
+  image: "/sasslanding_img.jpg",
+  color: "from-purple-500/20 to-pink-500/20",
+  Url: "https://www.behance.net/gallery/251834569/FASHION-LANDING-PAGE-DESIGN",
+  LiveUrl: "https://fashionwesite.lovable.app/",
+},
+
   {
     id: 6,
     title: "SecuraBox Security App",
@@ -274,22 +290,49 @@ export function ProjectShowcase() {
                     </AnimatePresence>
                   </div>
 
-                  <div className="p-6 md:p-8">
-                    <div className="flex items-center justify-between mb-4">
-                      <span className="inline-flex items-center rounded-full border border-white/20 bg-[#151515]/80 px-2.5 py-0.5 text-xs font-semibold backdrop-blur-sm text-white">
-                        {project.category}
-                      </span>
-                      <a
-                        href={project.Url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex h-8 w-8 items-center justify-center rounded-full bg-[#151515]/80 text-white backdrop-blur-sm"
-                      >
-                        <ArrowUpRight className="h-4 w-4" />
-                      </a>
-                    </div>
-                    <h3 className="text-2xl font-bold mb-2 text-white">{project.title}</h3>
-                    <p className="text-white">{project.description}</p>
+                
+<div className="flex items-center justify-between mb-4">
+  <span className="inline-flex items-center rounded-full border border-white/20 bg-[#151515]/80 px-2.5 py-0.5 text-xs font-semibold backdrop-blur-sm text-white">
+    {project.category}
+  </span>
+  <a
+    href={project.Url}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`View ${project.title} on Behance`}
+    className="flex h-8 w-8 items-center justify-center rounded-full bg-[#151515]/80 text-white backdrop-blur-sm"
+  >
+    <ArrowUpRight className="h-4 w-4" />
+  </a>
+</div>
+
+<h3 className="text-2xl font-bold mb-2 text-white">{project.title}</h3>
+<p className="text-white">{project.description}</p>
+
+<div className="flex flex-wrap gap-3 mt-4">
+  <a
+    href={project.Url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 rounded-full border border-white/20 px-4 py-2 text-sm text-white hover:bg-white/10"
+  >
+    Behance Case Study
+    <ArrowUpRight className="h-4 w-4" />
+  </a>
+
+  {project.LiveUrl && (
+    <a
+      href={project.LiveUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-black hover:bg-white/90"
+    >
+      View Live Website
+      <ExternalLink className="h-4 w-4" />
+    </a>
+  )}
+</div>
+
                   </div>
                 </div>
               </motion.div>
