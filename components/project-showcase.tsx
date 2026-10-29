@@ -87,7 +87,7 @@ const projects: Project[] = [
   title: "AI Therapy App",
   description: "Designed a mental wellness app experience focused on making emotional support and wellbeing tools feel approachable.",
   category: "UI/UX",
-  image: "/your-new-evra-image.png",
+  image: "/AI%20therapy%20App.png",
   color: "from-blue-500/20 to-cyan-500/20",
   Url: "https://www.behance.net/gallery/253690837/Ai-Therapy-App",
   LiveUrl: "https://apps.apple.com/ng/app/evra-ai-mental-wellness/id6755344599",
