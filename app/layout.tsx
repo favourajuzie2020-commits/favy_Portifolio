@@ -3,12 +3,10 @@ import './globals.css'
 
 
 export const metadata: Metadata = {
-  title: 'Favour Ajuzie | UI/UX Designer',
+  title: 'Favour Ajuzie | UI/UX, Product & Graphic Designer',
   description:
-    'Portfolio of Favour Ajuzie, a UI/UX and Product Designer creating intuitive digital experiences, user-centered interfaces, and compelling visual designs.',
+    'Explore the portfolio of Favour Ajuzie, a UI/UX, Product, and Graphic Designer creating intuitive digital products, user-centred experiences, and compelling visual identities.',
 }
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
