@@ -311,7 +311,7 @@ export function ProjectShowcase() {
       href={project.LiveUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-black hover:bg-white/90"
+      className="relative z-10 visible inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-black opacity-100 hover:bg-white/90"
     >
       View Live Website
       <ExternalLink className="h-4 w-4" />
