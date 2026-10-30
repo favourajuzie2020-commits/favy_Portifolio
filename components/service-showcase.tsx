@@ -2,8 +2,7 @@
 
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
-import { Compass, CuboidIcon as Cube, Globe, Layout, Palette, Video, type LucideIcon } from "lucide-react"
-
+import { Compass, Globe, Palette, Video, type LucideIcon } from "lucide-react"
 interface ServiceCardProps {
   title: string
   description: string
@@ -14,26 +13,25 @@ interface ServiceCardProps {
 
 const services = [
   {
-    title: "UI/UX Design",
-    description: "Creating intuitive and engaging user experiences for web and mobile applications.",
-    icon: Layout,
+    title: "Product Design",
+    description: "Transforming ideas into user-centred digital products through research, wireframing, prototyping, and thoughtful interface design.",
+    icon: Compass,
   },
   {
-    title: "Wordpress Developer",
-    description: "Designing beautiful, responsive websites that convert visitors into customers.",
-    icon: Globe,
+    title: "Branding & Logo Design",
+    description: "Creating distinctive brand identities, logos, and visual systems that communicate your brand's personality.",
+    icon: Palette,
   },
   {
-    title: "Motion Graphics",
-    description: "Bringing your ideas to life with captivating animations and visual effects.",
+    title: "Graphic Design",
+    description: "Creating compelling digital visuals, marketing materials, and creative assets using Adobe Creative Suite and Canva.",
     icon: Video,
   },
   {
-    title: "Framer Designer",
-    description: "Creating realistic framer designs and environments for products and spaces.",
-    icon: Cube,
+    title: "AI-Assisted Development",
+    description: "Building interactive prototypes and web experiences with AI-powered tools like Lovable and v0.",
+    icon: Globe,
   },
-
 ]
 
 function ServiceCard({ title, description, icon: Icon, index, isInView }: ServiceCardProps) {
