@@ -84,15 +84,17 @@ const projects: Project[] = [
   Url: "https://www.behance.net/gallery/240903405/Internal-Trip-Delivery-Coordination-App",
 },
 
-  {
-    id: 6,
-    title: "SecuraBox Security App",
-    description: "Designed a security-focused experience for managing sensitive information with an emphasis on clarity and trust.",
-    category: "UI/UX",
-    image: "/securabox.jpg",
-    color: "from-indigo-500/20 to-blue-500/20",
-    Url: "https://www.behance.net/gallery/211438871/Security-App-ui-design",
-  },
+{
+  id: 6,
+  title: "SecuraBox Security App",
+  description: "Designed a security-focused experience for managing sensitive information with an emphasis on clarity and trust.",
+  category: "UI/UX",
+  image: "/securabox.jpg",
+  color: "from-indigo-500/20 to-blue-500/20",
+  Url: "https://www.behance.net/gallery/211438871/Security-App-ui-design",
+  LiveUrl: "https://securabox.vercel.app/",
+  DownloadUrl: "https://drive.google.com/file/d/10YwZ4Q7oJPExSFB1MFLBcEWEPHfTMgXl/view",
+},
   
   {
     id: 8,
