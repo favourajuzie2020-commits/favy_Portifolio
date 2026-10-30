@@ -2,8 +2,9 @@ import type { Metadata } from "next"
 import ClientPage from "./ClientPage"
 
 export const metadata: Metadata = {
-  title: "Designer Portfolio | Creative Visual Artist",
-  description: "Portfolio showcasing cutting-edge design work and creative services",
+  title: "Favour Ajuzie | UI/UX, Product & Graphic Designer",
+  description:
+    "Explore the portfolio of Favour Ajuzie, showcasing intuitive digital products, user-centred experiences, and compelling visual designs.",
 }
 
 export default function Home() {
