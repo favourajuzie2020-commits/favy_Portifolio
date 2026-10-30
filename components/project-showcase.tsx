@@ -69,7 +69,7 @@ const projects: Project[] = [
   title: "Alyra AI Assistant",
   description: "Designed an AI assistant app with a clear interface to make interacting with AI feel simple and intuitive.",
   category: "UI/UX",
-  image: "/alyra_img.jpg",
+image: "/personal-assistant-ai.png",
   color: "from-purple-500/20 to-pink-500/20",
   Url: "https://www.behance.net/gallery/243483083/AI-ASSISTANT-MOBILE-APP-DESIGN",
 },
@@ -144,17 +144,6 @@ const projects: Project[] = [
     tags: ["Graphics"],
   },
 
-
-   {
-    id: 12,
-    title: "  Food Flyer Design",
-    category: "Graphics",
-    image: "/foodflyer.jpg",
-    color: "from-teal-500/20 to-green-500/20",
-    client: "bussiness",
-    year: "2026",
-    tags: ["Graphics"],
-  },
 
 
   {
