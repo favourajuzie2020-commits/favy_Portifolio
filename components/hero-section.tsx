@@ -161,22 +161,22 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
           >
-            <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold mb-1 text-white">3+</div>
-              <div className="text-sm text-white">Years Experience</div>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold mb-1 text-white">UI/UX</div>
-              <div className="text-sm text-white">Product Design</div>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold mb-1 text-white">20+</div>
-              <div className="text-sm text-white">Happy Clients</div>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="text-4xl font-bold mb-1 text-white">Visual</div>
-              <div className="text-sm text-white">Design</div>
-            </div>
+       <div className="flex flex-col items-center">
+  <div className="text-4xl font-bold mb-1 text-white">20</div>
+  <div className="text-sm text-white">Months Experience</div>
+</div>
+<div className="flex flex-col items-center">
+  <div className="text-4xl font-bold mb-1 text-white">UI/UX</div>
+  <div className="text-sm text-white">Product Design</div>
+</div>
+<div className="flex flex-col items-center">
+  <div className="text-4xl font-bold mb-1 text-white">4</div>
+  <div className="text-sm text-white">Design Services</div>
+</div>
+<div className="flex flex-col items-center">
+  <div className="text-4xl font-bold mb-1 text-white">Visual</div>
+  <div className="text-sm text-white">Design</div>
+</div>
           </motion.div>
         </div>
       </motion.div>
