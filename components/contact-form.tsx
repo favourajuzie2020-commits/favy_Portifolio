@@ -164,10 +164,6 @@ export function ContactForm() {
               </>
             )}
           </Button>
-
-          <div className="text-xs text-white/60 text-center pt-2">
-            Powered by Resend. Your message will be sent directly to my inbox.
-          </div>
         </form>
       )}
     </motion.div>
