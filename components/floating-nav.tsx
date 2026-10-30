@@ -106,7 +106,7 @@ export function FloatingNav() {
                 scrollToSection("home")
               }}
             >
-              design<span className="text-primary">.</span>studio
+              Favour Ajuzie<span className="text-primary">.</span>
             </Link>
 
             <nav className="hidden md:flex items-center gap-1">
