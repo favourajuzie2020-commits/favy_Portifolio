@@ -156,20 +156,6 @@ image: "/personal-assistant-ai.png",
     year: "2026",
     tags: ["Graphics"],
   },
-
-    {
-    id: 14,
-    title: "  Vendi Flyer Design",
-    category: "Graphics",
-    image: "/vendi.jpg",
-    color: "from-teal-500/20 to-green-500/20",
-    client: "bussiness",
-    year: "2026",
-    tags: ["Graphics"],
-  },
-
-  
-
   
 ]
 
