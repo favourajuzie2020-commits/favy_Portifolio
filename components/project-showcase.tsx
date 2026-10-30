@@ -42,6 +42,7 @@ const projects: Project[] = [
   image: "/Salad website.jpg",
   color: "from-purple-500/20 to-pink-500/20",
   Url: "https://www.behance.net/gallery/240902507/Salad-Bar-Restaurant-website",
+  LiveUrl: "https://resturaantwebsite.lovable.app/",
 },
  {
   id: 7,
