@@ -171,7 +171,7 @@ const projects = [
     title: "Online Course Landing Page",
     description: "An online course landing page designed to present educational content and make course information easy to explore.",
     category: "UI/UX",
-    image: "/course%20landing%20page%20.jpg",
+   image: "/course%20landing%20page%20.jpg",
     color: "from-blue-500/20 to-cyan-500/20",
     client: "—",
     year: "—",
