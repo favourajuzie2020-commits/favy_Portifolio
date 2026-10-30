@@ -5,7 +5,6 @@ import { motion, useInView } from "framer-motion"
 import { Mail, MapPin, Phone } from "lucide-react"
 
 import { ContactForm } from "@/components/contact-form"
-import { ResendSetupGuide } from "@/components/resend-setup-guide"
 
 export function ContactSection() {
   const ref = useRef<HTMLDivElement>(null)
@@ -149,8 +148,6 @@ export function ContactSection() {
                 </a>
               </div>
             </div>
-
-            <ResendSetupGuide />
           </motion.div>
 
           <motion.div
