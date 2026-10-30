@@ -79,7 +79,7 @@ const projects: Project[] = [
   title: "Internal Logistics App",
   description: "Designed a logistics app experience to help users coordinate trips and delivery activities through a more organized interface.",
   category: "UI/UX",
-  image: "/logistic_app.jpg",
+  image: "/Logistics traveling app.png",
   color: "from-purple-500/20 to-pink-500/20",
   Url: "https://www.behance.net/gallery/240903405/Internal-Trip-Delivery-Coordination-App",
 },
