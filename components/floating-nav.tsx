@@ -165,7 +165,7 @@ export function FloatingNav() {
                     scrollToSection("home")
                   }}
                 >
-                  design<span className="text-primary">.</span>studio
+                Favour Ajuzie<span className="text-primary">.</span>
                 </Link>
                 <button
                   className="flex items-center justify-center h-10 w-10 rounded-full bg-[#151515]/80 hover:bg-[#151515] transition-colors text-white"
