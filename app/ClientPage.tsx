@@ -158,9 +158,9 @@ export default function ClientPage() {
               >
                 design<span className="text-primary">.</span>studio
               </button>
-              <p className="text-white text-sm">
-                © {new Date().getFullYear()} Creative Design Studio. All rights reserved.
-              </p>
+             <p className="text-white text-sm">
+  © {new Date().getFullYear()} Favour Ajuzie. All rights reserved.
+</p>
             </div>
 
             <div className="flex items-center gap-6">
